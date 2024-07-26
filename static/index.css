@@ -1,0 +1,71 @@
+/* index.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex; /* or inline-flex */
+}
+
+.side1 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+  background-image: url("./assets/shoeFor2fa.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.side2 {
+    background-color: white;
+    width: 500px;
+    border-radius: 0 20px 20px 0;
+    margin: auto;
+}
+
+.loginContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

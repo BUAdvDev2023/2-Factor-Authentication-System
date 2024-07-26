@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='verify_2fa.css') }}">
+    <title>Verify 2FA</title>
+</head>
+<body>
+  <div class="container">
+    <div class="side1"></div>
+    <div class="side2">
+      <div class="loginContainer">
+        <h2>Verify 2FA</h2>
+        <form method="POST" action="{{ url_for('verify_2fa') }}">
+          <label for="token">Enter your 2FA code:</label>
+          <input type="text" id="token" name="token" required>
+          <button type="submit">Verify</button>
+        </form>
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
