@@ -4,19 +4,13 @@ This project demonstrates a robust 2-Factor Authentication (2FA) system implemen
 
 ## Features
 
+- **User Registration:** Users can register an account with an email and password.
 - **User Authentication:** Users can log in with their email and password.
 - **2FA Verification:** After logging in, a verification code is sent to the user's email, which must be entered to complete the login process.
-- **Secure Password Storage:** Passwords are hashed using `bcrypt`.
-- **Token-Based Authentication:** JSON Web Tokens (JWT) are used for session management.
+- **Access Grant:** Users can then have access to the home screen.
 - **Dockerized Setup:** Easy setup using Docker for containerized deployment.
 
 ## Screenshots
-
-### Mobile
-![Mobile Screenshot 1](path/to/mobile-screenshot1.png)
-![Mobile Screenshot 2](path/to/mobile-screenshot2.png)
-
-### Web
 ![Web Screenshot 1](path/to/web-screenshot1.png)
 ![Web Screenshot 2](path/to/web-screenshot2.png)
 
@@ -72,7 +66,7 @@ Access the Flask container and run the database migration commands.
     exit
 
 # Running the Application
-Once the setup is complete, you can access the application by navigating to http://localhost:5000 in your web browser.
+Once the setup is complete, you can access the application by navigating to http://localhost:5000 or http://localhost:5001 in your web browser.
 
 # Project Structure
 
