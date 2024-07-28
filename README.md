@@ -1,6 +1,6 @@
 # 2FA Authentication System
 
-This project demonstrates a robust 2-Factor Authentication (2FA) system implemented using Flask, Docker, MySQL, HTML, and CSS. The system includes user authentication and email verification for added security.
+This project demonstrates a robust and complete 2-Factor Authentication (2FA) system implemented using Flask, Docker, MySQL, HTML, and CSS. The system includes user authentication and email verification for added security. The system is ready for integration.
 
 ## Features
 
