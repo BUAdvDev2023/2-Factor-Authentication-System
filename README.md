@@ -11,8 +11,11 @@ This project demonstrates a robust 2-Factor Authentication (2FA) system implemen
 - **Dockerized Setup:** Easy setup using Docker for containerized deployment.
 
 ## Screenshots
-![Web Screenshot 1](path/to/web-screenshot1.png)
-![Web Screenshot 2](path/to/web-screenshot2.png)
+<img width="1512" alt="Screenshot 2024-07-26 at 19 35 06" src="https://github.com/user-attachments/assets/245bd643-e518-4bbf-a628-0eb0aa72f143">
+<img width="1512" alt="Screenshot 2024-07-26 at 19 35 27" src="https://github.com/user-attachments/assets/c2291c40-819e-4219-88a8-d17fff1a7105">
+<img width="1512" alt="Screenshot 2024-07-26 at 19 35 34" src="https://github.com/user-attachments/assets/181f3727-d430-4030-9fcb-831a30ce388b">
+<img width="1512" alt="Screenshot 2024-07-26 at 19 35 47" src="https://github.com/user-attachments/assets/946a4abc-d4a3-403b-b73e-f62028bebf8b">
+
 
 ## Installation
 
